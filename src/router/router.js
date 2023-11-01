@@ -33,5 +33,14 @@ export default [
       title: 'SharedWorkerPage2',
       keepAlive: false
     }
+  },
+  {
+    path: '/echart',
+    name: 'Echart',
+    component: () => import(/* webpackChunkName: 'echart' */ '@/views/echart/index.vue'),
+    meta: {
+      title: 'Echart',
+      keepAlive: false
+    }
   }
 ]
